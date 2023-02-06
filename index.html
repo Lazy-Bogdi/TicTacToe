@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="new.css">
+  </head>
+  <body>
+    <form id="form">
+        <h2>Configurez votre partie !</h2>
+        <table id="formTable">
+            <tr>
+                <th> <label for="gridSize">Taille de la grille (niveau simplissime seulement) </label></th>
+                <th><label for="lvlAI">Choix du niveau </label></th>
+                <th><label for="winCount">Win Count </label></th>
+                <th><label for="startPlayer">Start Player </label></th>
+            </tr>
+            <tr>
+                <td>
+                    <select id="gridSize">
+                        <option value="3">3x3</option>
+                        <option value="4">4x4</option>
+                        <option value="5">5x5</option>
+                  </select>
+                </td>
+
+                <td>
+                    <select id="lvlAI">
+                        <option value="1">Simplissime</option>
+                        <option value="2">Hardcore</option>
+                  </select>
+                </td>
+
+                <td>
+                    <select id="winCount">
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                  </select>
+                </td>
+
+                <td>
+                    <select id="startPlayer">
+                        <option value="player">Player</option>
+                        <option value="IA">IA</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <input type="button" value="Start Game" onclick="checkForm()">
+    </form>
+    <div id="game">
+      <table id="gameTable"></table>
+    </div>
+    <script src="new.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  background-color:
+    rgb(48, 46, 46);
+}
+
+#formTable {
+  border-collapse: collapse;
+  margin: auto;
+  border: none;
+  /* padding: 15px; */
+}
+
+#formTable td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#formTable tr {
+  border: 1px solid #f2f2f2;
+}
+
+#form {
+  display: block;
+  text-align: center;
+  /* align the form in the center of the page */
+  margin: 50px auto;
+  /* center the form vertically and horizontally */
+  padding: 5% 0 5% 0;
+  /* add some padding around the form */
+  background-color: #5c5c5c;
+  /* add a light gray background color to the form */
+  border-radius: 10px;
+  /* add rounded corners to the form */
+  box-shadow: 2px 2px 5px rgb(26, 26, 26);
+  /* add a subtle shadow to the form */
+  max-width: 50%;
+  color: #fff;
+  ;
+}
+
+#form label {
+  margin-right: 10px;
+  /* add some space between the labels and the inputs */
+}
+
+#form select {
+  padding: 10px;
+  /* add some padding inside the select boxes */
+  border-radius: 5px;
+  /* add rounded corners to the select boxes */
+  border: none;
+  /* remove the default border */
+  box-shadow: 2px 2px 5px #ccc;
+  /* add a subtle shadow to the select boxes */
+  /* margin : 15px 0 0 0 */
+}
+
+#form input[type="button"] {
+  background-color: #4CAF50;
+  /* change the button color to green */
+  color: white;
+  /* change the text color to white */
+  padding: 12px 20px;
+  /* add some padding to the button */
+  border: none;
+  /* remove the default border */
+  border-radius: 5px;
+  /* add rounded corners to the button */
+  cursor: pointer;
+  /* change the cursor to a hand when hovering over the button */
+  margin: 15px 0 0 0;
+}
+
+#game {
+  display: none;
+  text-align: center;
+}
+
+#gameTable {
+  color: #f2f2f2;
+  border-collapse: collapse;
+  margin: 25% auto auto auto;
+}
+
+#gameTable td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid #f2f2f2;
+}
